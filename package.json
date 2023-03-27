@@ -4,7 +4,8 @@
   "description": "Learn how to use serverless functions in less than 30 minutes!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "netlify dev --inspect"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/witcradg/netlify-serverless-tutorial/issues"
   },
-  "homepage": "https://github.com/witcradg/netlify-serverless-tutorial#readme",
-  "dependencies": {
-    "node-fetch": "^3.3.1"
-  }
+  "homepage": "https://github.com/witcradg/netlify-serverless-tutorial#readme"
 }
